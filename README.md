@@ -5,7 +5,6 @@
     2. ```npm start```
     
 2. Mutation for "Add New Post"
-    +
     ```
      mutation addPost {
        addPost(id: "1", topic: "Soup", body: "Soup tastes pretty good", user_id: "1") {
@@ -21,7 +20,6 @@
     ```
    
 3. Mutation for "Add New Comment To Post"
-    + 
     ```
      mutation addComment {
        addComment(id: "1", contents: "this is a comment", user_id: "1", post_id: "1") {
@@ -32,7 +30,6 @@
     ```
 
 4. Mutation for "Add response to Post"
-    +
     ```
      mutation updateComment {
        updateComment(comment_id: "1", response: "response to comment 1 on post 1") {
@@ -44,7 +41,6 @@
     ```
 
 5. Query for "Posts by Topic"
-    +
     ```
     {
       postsByTopic(topic: "Soup") {
@@ -69,7 +65,6 @@
     }
     ```
 6. Query for "Posts by ID"
-    +
     ```
     {
       postByID(id: "3") {
