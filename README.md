@@ -67,7 +67,7 @@
 6. Query for "Posts by ID"
     ```
     {
-      postByID(id: "3") {
+      postByID(id: "1") {
         id
         topic
         body
