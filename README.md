@@ -4,6 +4,9 @@
     1. ```npm install```
     2. ```npm start```
     
+2. Additional Notes
+    1. Couldn't get subscriptions working :(, which is why they are not included here.
+    
 2. Mutation for "Add New Post"
     ```
      mutation addPost {
